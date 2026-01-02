@@ -22,19 +22,19 @@ Unlike traditional chatbots, VoxNode Pro emphasizes **extensibility, modularity,
 
 A glimpse into VoxNode Pro's responsive conversational capabilities.
 
-![basic conversation](assets/image-1.png)
+<an image is coming here, im sure that i forget that>
 
 #### **2. RAG in Action: Custom Knowledge**
 
 See how VoxNode Pro leverages uploaded documents to provide accurate, context-aware answers.
 
-<an image is coming here>
+<an image is coming here, im sure that i forget that>
 
 #### **3. Function Calling (Simulated): Agent in Action**
 
 Future integration will show real-time logs of API calls and actions taken by the AI.
 
-<an image is coming here>
+<an image is coming here, im sure that i forget that>
 
 
 ### 📥 Installation & Setup
