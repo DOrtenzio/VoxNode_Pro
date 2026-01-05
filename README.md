@@ -155,6 +155,8 @@ voxnode-pro/
 ├── .github/             # Automation Workflow (CI/CD)
 ├── assets/              # Images and demos for the README
 ├── data/                # Folder where the user will upload the PDFs for the RAG
+├── tiny_version/        # Folder where we set the smaller VoxNode Pro version
+├── read_ai_voxnode/     # Folder where we set a new branch of VoxNode, a reader helper or more? And is so light ;-) (On Develop)
 ├── src/                 # Modular source code
 │ ├── __init__.py
 │ ├── engine.py          # LLM (Llama/Phi) and Quantization Management
@@ -162,6 +164,7 @@ voxnode-pro/
 │ ├── tts_stt.py         # Whisper and KittenTTS Integration
 │ └── actions.py         # API Logic (Calendar, Orders)
 ├── app.py               # Entry point (Gradio Interface)
+├── app-groq.py          # Entry point (Gradio Interface) but a new type of interaction not local but with api of console.groq
 ├── requirements.txt     # Python dependencies
 ├── Dockerfile           # To run everything in a container
 ├── .env.example         # Template for your API keys (Google, etc.)
@@ -220,7 +223,7 @@ Running LLMs on consumer-grade or entry-level enterprise GPUs (like the **NVIDIA
 
 
 ### 🗺️ Roadmap
-- Integration with **Groq API** for sub-100ms latency. (Not Done)
 - **Ollama** support for local-only deployment. (Not Done)
 - Multi-document RAG with **ChromaDB**. (Not Done)
--  Real-time Voice Activity Detection (VAD) to eliminate the "Stop Recording" button. (Not Done)
+-  Real-time Voice Activity Detection (VAD) to eliminate the "Stop Recording" button. (On Developing)
+-  Make Smaller the Tiny Version (Testing - Near to finish)
