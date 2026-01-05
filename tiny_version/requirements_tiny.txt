@@ -1,0 +1,23 @@
+# --- Core Tiny Stack ---
+torch>=2.0.0
+transformers==4.42.4
+accelerate>=0.30.0
+bitsandbytes>=0.43.0
+optimum
+flash-attn --no-build-isolation
+
+# --- Audio (Optimized) ---
+openai-whisper
+soundfile
+# KittenTTS Nano
+https://github.com/KittenML/KittenTTS/releases/download/0.1/kittentts-0.1.0-py3-none-any.whl
+
+# --- RAG Tiny ---
+sentence-transformers
+langchain
+langchain-community
+langchain-text-splitters
+faiss-gpu-cu12
+
+# --- Interface ---
+gradio
